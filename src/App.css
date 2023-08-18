@@ -1,38 +1,150 @@
-.App {
-  text-align: center;
+html, .App {
+    background-image: url(assets/gradient-background.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#header {
+    text-align: center !important;
+    background: transparent !important;
+    color: white;
+    text-decoration: none;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#header h1 {
+    font-size: 4rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#form h5 {
+    padding-top: 1rem;
+    text-align: left;
 }
 
-.App-link {
-  color: #61dafb;
+#form .container {
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 4rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#form form {
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+
 }
+
+.orange-button {
+    background-color: #c44902;
+    border-color: transparent;
+}
+
+.orange-button:hover, .orange-button:active {
+    background-color: #bf622d !important;
+    border-color: transparent !important;
+}
+
+.rest-days-box {
+    display: flex;
+}
+
+.rest-days-box h5 {
+    padding-right: 1rem;
+}
+
+.rest-days-box .form-check {
+    padding-top: 1.05rem;
+}
+
+.buffering-img {
+    max-width: 3rem;
+}
+
+.submit-area {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.col-lg-4 {
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.col-lg-7 {
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.col-lg-11 {
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#workout-plan .container {
+    margin-bottom: 3rem;
+}
+
+#workout-plan .container .row {
+    justify-content: center;
+}
+
+#workout-plan .container h4 {
+    font-size: 2rem;
+}
+
+#workout-plan .container h3 {
+    font-size: 2.3rem;
+}
+
+#workout-plan .container span h5 {
+    font-size: 1.75rem;
+    text-align: right;
+    margin-left: auto !important;
+}
+
+#workout-plan .container span h4 {
+    font-size: 2rem !important;
+    margin-right: auto !important;
+}
+
+#workout-plan .container ul {
+    margin-bottom: 0;
+}
+
+#workout-plan .container span {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#workout-plan a {
+    color: white;
+    text-decoration: none;
+}
+
